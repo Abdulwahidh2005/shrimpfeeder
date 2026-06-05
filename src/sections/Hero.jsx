@@ -59,7 +59,10 @@ export default function Hero() {
         className="relative z-[2] mx-auto w-full max-w-site px-[var(--gut)] pb-[clamp(56px,10vh,110px)]"
       >
         <motion.div variants={container} initial="hidden" animate="show">
-          <motion.span variants={item} className="eyebrow">
+          <motion.span
+            variants={item}
+            className="eyebrow text-accent underline decoration-accent/60 decoration-1 underline-offset-4"
+          >
             Automatic Aquaculture Feeder · Model 500
           </motion.span>
           <motion.h1

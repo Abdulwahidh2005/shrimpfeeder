@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Spark, Arrow } from "../components/icons.jsx";
+import { Arrow } from "../components/icons.jsx";
 import { navLinks } from "../data.js";
 
 export default function Nav() {
@@ -26,19 +26,15 @@ export default function Nav() {
       }`}
     >
       <div className="mx-auto flex max-w-site items-center justify-between gap-6 px-[var(--gut)] py-[18px]">
-        {/* logo slot */}
+        {/* logo */}
         <a
           href="#top"
-          aria-label="Brand home — logo placeholder"
-          className="group inline-flex h-[42px] items-center gap-[11px] rounded-[var(--r)] border border-dashed border-[rgba(234,237,239,0.34)] pl-[13px] pr-4 text-on-dark transition-colors duration-[400ms] hover:border-accent"
+          aria-label="ShrimpFeeder — home"
+          className="group inline-flex items-center text-on-dark"
         >
-          <Spark className="h-[17px] w-[17px]" />
-          <span className="flex flex-col leading-none">
-            <b className="text-[13px] font-semibold tracking-[0.16em]">YOUR&nbsp;LOGO</b>
-            <span className="mono mt-[3px] text-[8.5px] tracking-[0.24em] text-on-dark-mut">
-              FEEDER&nbsp;SYSTEMS
-            </span>
-          </span>
+          <b className="text-[19px] font-semibold tracking-[0.01em] transition-colors duration-[400ms] group-hover:text-accent">
+            ShrimpFeeder
+          </b>
         </a>
 
         {/* desktop links */}

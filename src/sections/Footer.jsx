@@ -58,15 +58,11 @@ export default function Footer() {
           <div>
             <a
               href="#top"
-              className="inline-flex h-[42px] items-center gap-[11px] rounded-[var(--r)] border border-dashed border-[rgba(234,237,239,0.34)] pl-[13px] pr-4 text-on-dark transition-colors hover:border-accent"
+              className="group inline-flex items-center text-on-dark"
             >
-              <Spark className="h-[17px] w-[17px]" />
-              <span className="flex flex-col leading-none">
-                <b className="text-[13px] font-semibold tracking-[0.16em]">YOUR&nbsp;LOGO</b>
-                <span className="mono mt-[3px] text-[8.5px] tracking-[0.24em] text-on-dark-mut">
-                  FEEDER&nbsp;SYSTEMS
-                </span>
-              </span>
+              <b className="text-[19px] font-semibold tracking-[0.01em] transition-colors hover:text-accent">
+                ShrimpFeeder
+              </b>
             </a>
             <p className="mt-4 max-w-[34ch] text-[14px] text-on-dark-mut">
               Engineered hardware for calibrated, even, waste-free feeding on the
