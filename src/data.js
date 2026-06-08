@@ -148,7 +148,7 @@ export const team = [
   {
     photo: "/assets/team/dineshvaran.jpeg",
     name: "Dineshvaran S",
-    role: "Aquaculture & Sustainability",
+    role: "Aeronautical Engineering",
     bio: "Passionate about aquaculture innovations and sustainable solutions — designing efficient, safe and environmentally-responsible farming methods for the future of global food security.",
     linkedin: "https://www.linkedin.com/in/s-dinesh-varan-39b49b386",
     badge: null,
@@ -156,7 +156,7 @@ export const team = [
   {
     photo: "/assets/team/theneeshwaran.jpeg",
     name: "Theneeshwaran M",
-    role: "Mechanical Engineer",
+    role: "Mechanical Engineering",
     bio: "Passionate about mechanical design and sustainable solutions, with a strong focus on supporting efficient project development and lifecycle optimization.",
     linkedin: "https://www.linkedin.com/in/theneeshwaran-m-a23742367",
     badge: null,
