@@ -146,14 +146,6 @@ export const solutions = [
 
 export const team = [
   {
-    photo: "/assets/team/theneeshwaran.jpeg",
-    name: "Theneeshwaran M",
-    role: "Mechanical Engineer",
-    bio: "Passionate about mechanical design and sustainable solutions, with a strong focus on supporting efficient project development and lifecycle optimization.",
-    linkedin: "https://www.linkedin.com/in/theneeshwaran-m-a23742367",
-    badge: null,
-  },
-  {
     photo: "/assets/team/dineshvaran.jpeg",
     name: "Dineshvaran S",
     role: "Aquaculture & Sustainability",
@@ -162,9 +154,17 @@ export const team = [
     badge: null,
   },
   {
+    photo: "/assets/team/theneeshwaran.jpeg",
+    name: "Theneeshwaran M",
+    role: "Mechanical Engineer",
+    bio: "Passionate about mechanical design and sustainable solutions, with a strong focus on supporting efficient project development and lifecycle optimization.",
+    linkedin: "https://www.linkedin.com/in/theneeshwaran-m-a23742367",
+    badge: null,
+  },
+  {
     photo: "/assets/team/brathikan.jpeg",
     name: "Brathikan V. M",
-    role: "Mechanical Design Engineer",
+    role: "Innovation Expert",
     bio: "A result-oriented mechanical engineer with extensive experience in innovative product design and detailed design optimization for manufacturing and system lifecycle efficiency.",
     linkedin: "#",
     badge: "Project Advisor",
@@ -180,7 +180,7 @@ export const team = [
 ];
 
 export const contact = {
-  email: "reactkumaraguru@gmail.com",
+  email: "react@kct.ac.in",
   phone: "+91 99948 27481",
   phoneHref: "tel:+919994827481",
   location: "Kumaraguru College of Technology",
